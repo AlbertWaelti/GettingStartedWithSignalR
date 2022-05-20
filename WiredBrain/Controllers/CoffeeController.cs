@@ -1,12 +1,6 @@
-﻿using System;
-using System.Net.WebSockets;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
-using WiredBrain.Helpers;
 using WiredBrain.Hubs;
 using WiredBrain.Models;
 

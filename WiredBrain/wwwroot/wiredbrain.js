@@ -1,5 +1,5 @@
 ﻿// WebSocket = undefined;
-//EventSource = undefined;
+// EventSource = undefined;
 //, signalR.HttpTransportType.LongPolling
 
 let connection = null;
@@ -46,5 +46,5 @@ document.getElementById("submit").addEventListener("click", e => {
             }
         })
         .then(response => response.text())
-        .then(id => connection.invoke("GetUpdateForOrder", parseInt(id)));
+        .then(id => connection.invoke("GetUpdateForOrder", parseInt(id))); // Parameter Type must be identical between server method and invoke call
 });
